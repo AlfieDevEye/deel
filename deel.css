@@ -38,7 +38,6 @@ header>div>img{
 }
 .section1{
     height: 100vh;
-    margin-top: 8%;
     background-color: #fffbf4;
 }
 .sec-h1{
@@ -160,23 +159,25 @@ position: relative;
 }
 .section7{
     background-color: #fef5e6;
-    height: 100vh;
+    /* height: 100vh; */
     padding: 48px 40px 100px;
+       position: relative
 }
 .sec7-h5{
-    font-size: 75px;
+    font-size: 60px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
 }
 .button-div{
     display: flex;
     justify-content: center;
+  
 }
 .button-items{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+   ;
     gap: 30px;
     padding: 8px;
     margin-top: 50px;
@@ -201,6 +202,16 @@ background-color: transparent;
 color: black;
 font-weight: 700px;
 padding: 10px; 
+}
+.flora{
+    background-color: #ffffff;
+    height: 450px;
+    width: 500px;
+    position: absolute;
+    top: 41%;
+    left: 43%;
+    border-radius: 16px;
+    padding: 40px;
 }
 
 @media (max-width: 768px) {
