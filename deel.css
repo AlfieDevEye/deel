@@ -158,11 +158,50 @@ position: relative;
     padding: 10px;
     margin-bottom: 100px;
 }
+.section7{
+    background-color: #fef5e6;
+    height: 100vh;
+    padding: 48px 40px 100px;
+}
+.sec7-h5{
+    font-size: 75px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+}
+.button-div{
+    display: flex;
+    justify-content: center;
+}
+.button-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 30px;
+    padding: 8px;
+    margin-top: 50px;
+    border-radius: 200px;
+    background-color: transparent;
+    width: auto;
+    height: 50px;
+    border: 2px solid rgba(27, 27, 27, 0.16);
+}
 
-
-
-
-
+.btn8{
+border: 0px;
+background-color: black;
+color: white;
+font-weight: 700px;
+border-radius: 200px;
+padding: 10px;
+}
+.btn9{
+  border: 0px;
+background-color: transparent;
+color: black;
+font-weight: 700px;
+padding: 10px; 
+}
 
 @media (max-width: 768px) {
   .grid-container {
