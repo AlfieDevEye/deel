@@ -3,9 +3,9 @@
     padding: 0%;
     box-sizing: border-box;
 }
-/* body{
-     background-color: #fffbf4;
-} */
+body{
+        font-family: Inter, "Inter Fallback", Arial, Helvetica, sans-serif;
+}
  .navbar-nav{
     flex-basis: 80%;
     justify-content: center;
@@ -234,7 +234,7 @@ padding: 10px;
 footer{
     background-color: #1b1b1b;
     position: relative;
-    height: 100vh;
+    
     margin-top: 30px;
 
 }
@@ -243,11 +243,18 @@ footer{
     top:-16%;
     width: 100%;
 }
-.btn11{
-    background-color: transparent;
-    border-radius: 60px;
-     padding: 3px 10px;
-     color: white;
+.flower{
+    border-bottom: 1px solid rgba(250, 244, 238, 0.16);
+}
+
+.footer-grid {
+    width: 100%;
+    padding: 48px 0 64px;
+    border-bottom: 1px solid rgba(250, 244, 238, 0.16);
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(5, minmax(0, 237px));
+    margin: 50px;
 }
 /* @media (max-width: 768px) and (min-width: 480px){
   .grid-container {
