@@ -28,6 +28,52 @@ header>div>img{
     top:100%;
     width:100%;   
 }
+.div-animation{
+      margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    /* background-color: #f0f0f0; */
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+.scrolling-text-container{
+    width: 80%; 
+    max-width: 1000px; height: 100px;
+    overflow: hidden;
+    position: relative;
+    /* border: 1px solid #ccc;   */
+    /* background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 10%, rgba(255,255,255,0) 90%, rgba(255,255,255,1) 100%);  */
+    mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%);
+    -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%); 
+}
+.scrolling-text{
+    display: flex; 
+    white-space: nowrap; 
+    position: absolute; 
+    left: 0; 
+    animation: scrollText 30s linear infinite; 
+    padding: 0 20px
+}
+.scrolling-text span { 
+    font-size: 2em; 
+    font-weight: bold; 
+    color: #333; 
+    margin-right: 50px; 
+    opacity: 1; 
+    transition: opacity 0.5s ease-in-out; 
+    }
+     @keyframes scrollText { 
+        0% { transform: translateX(0%);
+        opacity: 1;
+     }
+        50% { opacity: 0.8;  
+        }
+        100% { transform: translateX(-50%); 
+            opacity: 1; } 
+        }
+
 .trusted{
     color: #b1d8fc;
     font-weight: 400;
