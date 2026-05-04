@@ -180,10 +180,10 @@ padding: 50px;
     justify-content: center;
    
 }
-#splide01-slide02{
+/* #splide01-slide02{
     /* display: flex !important;
-    justify-content: center; */
-}
+    justify-content: center; */ */
+/* } */
 .bg-red{
     background-color: aqua !important;
 }
